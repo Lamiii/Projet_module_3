@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>e-commerce</title>
+</head>
+<body>
+	<div class="jumbotron" style="margin-bottom: 0px; text-align: center; background: #E5C638">
+		<h1 style="font-size: 50px; font-weight: bold;">Resto'In</h1>
+		<p><i>Regale toi à volonté</i></p>
+	</div>
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #14B90F;">
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
+			<span class="navbar-toggler-icon">
+				
+			</span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapse-target">
+		<span class="navbar-text">Resto</span>
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a href="#" class="nav-link">Accueil</a>
+			</li>
+			<li class="nav-item">
+				<a href="index1.html" class="nav-link">Spécialités</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Nos services</a>
+			</li>
+			<li class="nav-item">
+				<a href="#cool" class="nav-link">Contacts</a>
+			</li>
+		</ul>
+		</div>
+	</nav>
+	<img src="Images/poule1.jpg" class="img-fluid" style="width: 100%; background-size: cover; height: 800px;">
+	<div class="container cool">
+
+   	<div class="row">
+   		<div class="col-lg-4 col-md-4 ico1"><img src="Images/commande.png" class="icon1"><p style="margin-top: 20px;">Ajouter dans le panier et faites la commande de vos plats sélectionnés en toute simplicité chez resto Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   		tempor incididunt ut labore 
+   		</p></div>
+   		<div class="col-lg-4 col-md-4 ico2"><img src="Images/livraison2.jpg" class="icon2"><p style="margin-top: 20px;">Faites vous livrer dans les prochaines minutes en toute rapidité. et dolore magna aliqua. Ut enim ad minim veniam,
+   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p></div>
+   		<div class="col-lg-4 col-md-4 ico3"><img src="Images/imm.jpg" class="icon3"><p style="margin-top: 20px;">Vous pouvez enfin recevoir la commande maintenant en toute sécurité. cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+   		
+   	</div>
+
+   	<div class="divs">
+   		<h2 style="text-align: center; margin-bottom: 70px;">Nos meilleures recettes...</h2>
+   		<div class="row">
+   			<div class="col-md-4" style="height: 400px;"><img src="images/grill1.jpg" class="rounded-circle im1" onmouseover="over()" onmouseout="out()" id="i1"></div>
+   			<div class="col-md-4" style="height: 400px;"><img src="images/grillade.jpg" class="rounded-circle im2" onmouseover="over1()" onmouseout="out1()" id="i2"></div>
+   			<div class="col-md-4" style="height: 400px;"><img src="images/pastel.jpg" class="rounded-circle im3" onmouseover="over2()" onmouseout="out2()" id="i3"></div>
+   			<h3>Client satisfait, notre priorité!</h3>
+   		</div>
+   		
+   	</div>
+    
+   	
+   
+   <div id="cool">
+   	<h2 style="text-align: center;">Votre avis compte</h2>
+   	<div class="row">
+               <div class="col-lg-10 col-lg offset-1">
+                    <form id="contact-form" method="post" action="" role="form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="firstname" id="prenom">Prénom <span class="blue">*</span></label>
+                                <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom" required="required">
+                                <p class="comments" id="p1"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="name" id="nom">Nom <span class="blue">*</span></label>
+                                <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom" required="required">
+                                <p class="comments" id="p2"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" >Email <span class="blue">*</span></label>
+                                <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email" required="required">
+                                <p class="comments" id="p3"></p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" >Téléphone</label>
+                                <input id="phone" type="tel" name="phone" class="form-control" placeholder="Votre Téléphone" required="required">
+                                <p class="comments" id="p4"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="message" >Message <span class="blue">*</span></label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4" required="required"></textarea>
+                                <p class="comments" id="p5"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="blue"><strong>* Ces informations sont requises.</strong></p>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" id="button1" value="Envoyer" class="btn btn-danger">
+                                <!--<a href="" class="btn btn-danger">Envoyer</a>--> 
+                            </div>    
+                        </div>
+                    </form>
+                </div>
+           </div>
+   </div>
+   </div>
+   <script>
+   var bouton = document.getElementById('button1');
+          bouton.addEventListener('click',Valider);
+          var prenom = document.getElementById('firstname');
+          var p1 = document.getElementById('p1');
+          var nom = document.getElementById('name');
+          var p2 = document.getElementById('p2');
+          var email = document.getElementById('email');
+          var p3 = document.getElementById('p3');
+          var phone = document.getElementById('phone');
+          var p4 = document.getElementById('p4');
+          var message = document.getElementById('message');
+          var p5 = document.getElementById('p5');
+
+   function Valider(e) {
+            if (prenom.validity.valueMissing) {
+              e.preventDefault();
+              p1.textContent = 'Entrez votre prénom';
+              p1.style.color = 'red';
+
+            }
+            else{
+              e.preventDefault();
+              p1.textContent = '';
+              p1.style.color = 'green';
+            }
+            if (nom.validity.valueMissing) {
+              e.preventDefault();
+              p2.textContent = 'Entrez votre nom';
+              p2.style.color = 'red';
+
+            }
+            else{
+              e.preventDefault();
+              p2.textContent = '';
+              p2.style.color = 'green';
+            }
+            if (email.validity.valueMissing) {
+              e.preventDefault();
+              p3.textContent = 'Entrez votre mail';
+              p3.style.color = 'red';
+
+            }
+            else{
+              e.preventDefault();
+              p3.textContent = '';
+              p3.style.color = 'green';
+            }
+            if (phone.validity.valueMissing) {
+              e.preventDefault();
+              p4.textContent = 'Entrez votre numéro de telephone';
+              p4.style.color = 'red';
+
+            }
+            else{
+              e.preventDefault();
+              p4.textContent = '';
+              p4.style.color = 'green';
+            }
+            if (message.validity.valueMissing) {
+              e.preventDefault();
+              p5.textContent = 'Entrez votre message';
+              p5.style.color = 'red';
+
+            }
+            else{
+              e.preventDefault();
+              p5.textContent = '';
+              p5.style.color = 'green';
+            }
+          }
+        </script>
+        
+   
+
+   	<footer>
+        <h4 style="text-align: center; padding-top: 100px;">Resto@copyright2019.</h4>
+        <div style=" border-bottom: 2px solid grey; width: 20%; margin: 0 auto; margin-top: 40px"></div>
+    </footer>
+
+
+
+
+<script type="text/javascript">
+  function over() {
+    var lam = document.getElementById('i1');
+    lam.src = "Images/garba.jpg";
+  }
+  function out() {
+    var x = document.getElementById('i1');
+    x.src = "images/grill1.jpg";
+  }
+  function over1() {
+    var y = document.getElementById('i2');
+    y.src = "images/dish1.png";
+  }
+  function out1() {
+    var yy = document.getElementById('i2');
+    yy.src = "images/grillade.jpg";
+  }
+  function over2() {
+    var x = document.getElementById('i3');
+    x.src = "images/tchep.jpg";
+  }
+  function out2() {
+    var xx = document.getElementById('i3');
+    xx.src = "images/pastel.jpg";
+  }
+</script>
+
+
+
+
+
+
+
+   	
+</body>
+</html>

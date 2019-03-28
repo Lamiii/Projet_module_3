@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="jquery/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>e-commerce</title>
+</head>
+<body>
+
+    <div class="jumbotron" style="margin-bottom: 0px; text-align: center; background: #E53DAF">
+        <h1 style="font-size: 50px; font-weight: bold;">Resto'In</h1>
+        <p><i>Regale toi à volonté</i></p>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #14B90F;">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
+            <span class="navbar-toggler-icon">
+                
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-target" style="text-align: center;">
+        <span class="navbar-text">Resto</span>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index1.html" class="nav-link">Grillades</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Desserts</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cool" class="nav-link">Commandes</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Accueil</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+
+<div class="container">
+        
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-lg-6 col-lg offset-3">
+                <div class="thumbnail" style="height: 580px;">
+                  <div>
+                    <img src="Images/pg.jpg" style="width: 100%; height: 400px">
+                    <input type="submit" id="view" value="voir" class="btn btn-danger bbb" style="display: none" onclick="large1()">
+                  </div>
+                    
+                        <h5 style="text-align: center;">Riz poulet grillé</h5>
+                <p id="pp">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="di" style="margin-top: 50px;">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:1500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" id="fff" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+      </div>
+  </div>
+</body>
+<script type="text/javascript">
+    function dialogue() {
+        alert("Votre commande a été prise en compte");
+    }
+</script>
+
+
+</html>

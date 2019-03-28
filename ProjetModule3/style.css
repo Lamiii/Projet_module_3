@@ -1,0 +1,115 @@
+ul{
+	margin-left: 350px;
+}
+
+li{
+    margin-left: 20px;
+	font-size: 22px;
+}
+
+.icon1{
+	height: 200px;
+	width: 250px;
+}
+.icon2{
+	height: 200px;
+	width: 250px;
+}
+.icon3{
+	height: 200px;
+	width: 250px;
+}
+.cool{
+	margin-top: 70px;
+}
+.ico1{
+	/*border: 1px solid red;*/
+	border-radius: 100px;
+	width: 350px;
+	height: 400px;
+	
+	
+}
+.ico2{
+	/*border: 1px solid red;*/
+	border-radius: 100px;
+	width: 300px;
+	height: 400px;
+
+}
+.ico3{
+	/*border: 1px solid red;*/
+	border-radius: 100px;
+	width: 300px;
+    height: 400px;
+	
+}
+.divs{
+	margin-top: 50px;
+}
+.im1{
+	height: 300px;
+	width: 310px;
+}
+.im2{
+	height: 300px;
+	width: 310px;
+}
+.im3{
+	height: 300px;
+	width: 310px;
+}
+.row{
+	margin-bottom: 20px;
+}
+footer{
+	height: 300px;
+	background: #8DB90F;
+}
+
+.gras{
+    height: 200px;
+    width: 100%;
+    /*margin-left: 1px;
+    margin-right: 5px;*/
+}
+.gros{
+    height: 200px;
+    width: 250px;
+}
+.gris{
+    height: 200px;
+    width: 250px;
+}
+.grus{
+    height: 200px;
+    width: 250px;
+}
+.thumbnail{
+	border: 2px solid #E5A338;
+	border-radius: 5px;
+}
+.comm{
+	height: 50px;
+	width: 50px;
+	bottom: 100px;
+}
+.btno {
+	border-radius:12px 0 12px 0;
+	background: #d34836;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+}
+.gras { 
+	position : relative ;
+}
+
+.bbb {
+    position : absolute;
+	top: 2px;
+	right: 12px;
+	/*left: 115px;*/
+
+}

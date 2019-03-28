@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="jquery/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>e-commerce</title>
+</head>
+<body>
+
+    <div class="jumbotron" style="margin-bottom: 0px; text-align: center; background: #E53857">
+        <h1 style="font-size: 50px; font-weight: bold;">Resto'In</h1>
+        <p><i>Regale toi à volonté</i></p>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #14B90F;">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
+            <span class="navbar-toggler-icon">
+                
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-target" style="text-align: center;">
+        <span class="navbar-text">Resto</span>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Grillades</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Desserts</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cool" class="nav-link">Commandes</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Accueil</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <!--<div class="container" id="container">
+        <h2 style="text-align: center; margin-top: 30px;">Faites votre choix...</h2>
+        <div class="row" style="margin-top: 200px;">
+
+
+    </div>
+    </div>-->
+    
+
+    <div class="container">
+        <h2 class"center; style="margin-top: 30px;">Faites votre choix...</h2>
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail" onmouseover ="foot()" id="foo" onmouseout="foot1()">
+                  <div id="views" onmouseover="opacite()" onmouseout="opaciten()">
+                    <img src="Images/spécial.jpeg" class="gras" id="ima">
+                    <input type="submit" id="view" value="voir" class="btn btn-danger bbb" style="display: none" onclick="large()">
+                  </div>
+                    
+                        <h5 style="text-align: center;">Frittes brochettes de poulet</h5>
+                <p id="pp">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="di">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:1500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" id="fff" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="boot()" id="boo" onmouseout="boot1()">
+                    <div id="views" onmouseover="opacite1()" onmouseout="opaciten1()">
+                    <img src="Images/pg.jpg" class="gras" id="ima1">
+                    <input type="submit" id="view1" value="voir" class="btn btn-danger bbb" style="display: none" onclick="large1()">
+                  </div>
+                        <h5 style="text-align: center;">Riz poulet grillé</h5>
+                <p id="pa">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="fi">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:1500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="coot()" id="coo" onmouseout="coot1()">
+                    <img src="Images/bro.jpeg" class="gras" id="ima2">
+                    
+                        <h5 style="text-align: center;">Brochettes</h5>
+                <p id="pu">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="ci">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:1000fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="poot()" id="poo" onmouseout="poot1()">
+                    <img src="Images/alloco.jpg" class="gras" id="ima3">
+                    
+                        <h5 style="text-align: center;">Alloco</h5>
+                <p id="ppu">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="pi">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+            
+        
+        </div>
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="doot()" id="doo" onmouseout="doot1()">
+                    <img src="Images/braises.png" class="gras" id="ima4">
+                    
+                        <h5 style="text-align: center;">Poisson braisé</h5>
+                <p id="po">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="ddi">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:1500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="soot()" id="soo" onmouseout="soot1()">
+                    <img src="Images/chouu.jpeg" class="gras" id="ima5">
+                    
+                        <h5 style="text-align: center;">choucouya</h5>
+                <p id="su">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="si">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:700fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="moot()" id="moo" onmouseout="moot1()">
+                    <img src="Images/pb.jpg" class="gras" id="ima6">
+                    
+                        <h5 style="text-align: center;">Poulets braisés</h5>
+                <p id="mu">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="mi">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:2000fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="voot()" id="voo" onmouseout="voot1()">
+                    <img src="Images/banane.jpeg" class="gras" id="ima7">
+                    
+                        <h5 style="text-align: center;">alloco beignets de banane</h5>
+                <p id="vu">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="vi">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+            
+        
+        </div>
+        <div class="row" style="margin-top: 80px;">
+            <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="noot()" id="noo" onmouseout="noot1()">
+                    <img src="Images/garba.jpg" class="gras" id="ima8">
+                    
+                        <h5 style="text-align: center;">Garba</h5>
+                <p id="nu">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="ni">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="root()" id="roo" onmouseout="root1()">
+                    <img src="Images/galet.jpg" class="gras" id="ima9">
+                    
+                        <h5 style="text-align: center;">spécial1</h5>
+                <p id="ru">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="ri">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:2500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="loot()" id="loo" onmouseout="loot1()">
+                    <img src="Images/pizza.jpeg" class="gras" id="ima10">
+                    
+                        <h5 style="text-align: center;">spécial2</h5>
+                <p id="lu">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="li">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:1000fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+          <div class="col-lg-3" style="height: 500px; width: 300px;">
+                <div class="thumbnail"  onmouseover ="toot()" id="too" onmouseout="toot1()">
+                    <img src="Images/tchep.jpg" class="gras" id="ima11">
+                    
+                        <h5 style="text-align: center;">spécial3</h5>
+                <p id="tu">Descriptions Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt.</p>
+                    
+                <div id="ti">
+                <h5 style="font-weight: bold; background: orange; width: 120px;" class="btn btno" type="none;">Prix:500fr</h5>
+                  <img src= "Images/commander.png" class="comm" style="margin-left: 70px; margin-top: -20px; float: right;" onclick="dialogue()">
+                  </div>
+                </div>
+                
+          </div>
+            
+        
+        </div>
+    </div>
+    <footer>
+        <h4 style="text-align: center; padding-top: 100px;">Resto@copyright2019.</h4>
+        <div style=" border-bottom: 2px solid grey; width: 20%; margin: 0 auto; margin-top: 40px"></div>
+    </footer>
+    <script type="text/javascript">
+    function large() {
+    window.open("index3.html");
+    }
+    function large1() {
+    window.open("index4.html");
+    }
+    </script>
+    
+
+</body>
+</html>        
